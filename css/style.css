@@ -1,0 +1,10 @@
+
+@import url(global/global.css);
+@import url(global/header.css);
+@import url(global/footer.css);
+
+@import url(home/intro.css);
+@import url(home/galery.css);
+@import url(home/inovation.css);
+@import url(home/partners.css);
+@import url(home/sustentability.css);
