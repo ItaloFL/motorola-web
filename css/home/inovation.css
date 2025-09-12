@@ -145,3 +145,39 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 500px) {
+  .image-inovation {
+    width: 350px;
+    height: 371px;
+  }
+
+  .texto-apresentacao {
+    width: 350px;
+  }
+
+  .titulo {
+    font-size: 24px;
+  }
+
+  .paragrafo {
+    width: 350px;
+    margin-bottom: 60px;
+    font-size: 18px;
+  }
+
+  .cards {
+    padding: 20px;
+    width: 350px; 
+    height: 250px;
+   
+  }
+
+  .cards-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+     flex-direction: column;
+  }
+}

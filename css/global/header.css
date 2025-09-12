@@ -3,6 +3,12 @@
   height: 70px;
 }
 
+.logo svg {
+  width: 280px;
+  height: 70px;
+  color: var(--color-text);
+}
+
 .list-button {
   display: flex;
   align-items: center;
@@ -28,7 +34,7 @@
 
 .menu-list li a {
   text-decoration: none;
-  color: #000;
+  color: var(--color-text);
   font-size: 20px;
 }
 

@@ -12,7 +12,12 @@
 }
 
 #imgNatureza {
-  max-width: 100%;
+  width: 800px;
+  
+}
+
+.icoRedes img {
+    color: var(--color-text);
 }
 
 .textNatura {
