@@ -1,0 +1,47 @@
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parte-superior {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 80px;
+}
+
+.cards-geral{
+    display: flex;
+    text-align: center;
+    gap: 113px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.cards {
+    padding: 30px;
+    background-color: grey;
+}
+
+.texto-apresentacao {
+    display: block;
+}
+
+.imagem img {
+    max-width: 556px;
+    max-height: 371px;
+}
+
+.imagem-logo img {
+    width: 65.2px;
+    height: 65.2px;
+    border-radius: 100%;
+}
