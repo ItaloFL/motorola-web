@@ -146,20 +146,24 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .image-inovation {
-    width: 400px;
+    width: 350px;
     height: 371px;
   }
 
   .texto-apresentacao {
-    width: 400px;
-   
+    width: 350px;
+  }
+
+  .titulo {
+    font-size: 24px;
   }
 
   .paragrafo {
-    width: 400px;
+    width: 350px;
     margin-bottom: 60px;
+    font-size: 18px;
   }
 
   .cards {
