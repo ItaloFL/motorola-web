@@ -75,8 +75,9 @@
   }
   .textNatura .paragraph 
   {
+    margin-bottom: 40px;
+
     width: 700px;
-    height: 35px;
     font-size: 16px;
     font-weight: bold;
     text-align: justify;
@@ -125,8 +126,9 @@
     max-width: 80%;
   }
   .textNatura .paragraph {
+    margin-bottom: 40px;
+
     width: 375px;
-    height: 35px;
     font-size: 16px;
     font-weight: bold;
     text-align: justify;
@@ -157,15 +159,16 @@
   }
   .textNatura .paragraph {
     margin-top: 20px;
+    margin-bottom: 40px;
+    
     width: 360px;
-    height: 35px;
     font-size: 16px;
     font-weight: bold;
     text-align: justify;
     padding: 5px;
   }
   #retangulo {
-    max-width: 100vw;
+    max-width: 375px;
   }
   .logo svg
   {
