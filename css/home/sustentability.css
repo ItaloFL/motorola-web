@@ -1,0 +1,63 @@
+.natureza{
+    display: flex;
+    background: #EBEBEB;
+    position: relative;
+    height: 799px;
+    
+}
+
+#imgNatureza{
+    width: 799px;
+    
+}
+
+.textNatura{
+    /* padding: 20px; */
+    margin-left: 40px;
+    margin-top: 100px;
+    
+}
+
+.textNatura h2 {
+    width: 620px;
+    height: 101px;
+    font-size: 36px;
+    /* text-align: initial; */
+}
+
+.textNatura p {
+    margin-top: 30px;
+    width: 490px;
+    height: 95px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+#retangulo {
+    margin-top: 100px;
+    display: flex;
+    width: 539px;
+    height: 138px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    & h2{
+        width: auto;
+        text-align: center;
+        /* background: blue; */
+        height: 50px;
+    }
+    background: #D9D9D9;
+    
+}
+
+#retangulo{
+    /* background: red; */
+    position:;
+}
+
+footer{
+    background: #D9D9D9;
+    margin-top: 20px;
+}
