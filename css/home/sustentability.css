@@ -12,6 +12,11 @@
 
 #imgNatureza {
   width: 800px;
+  
+}
+
+.icoRedes img {
+    color: var(--color-text);
 }
 
 .textNatura {
