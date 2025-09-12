@@ -64,6 +64,7 @@
 .imagem img {
   max-width: 556px;
   max-height: 371px;
+  background-color: blue;
 }
 
 .total {
