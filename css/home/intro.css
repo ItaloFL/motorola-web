@@ -36,6 +36,12 @@
   padding: 20px;
   border-radius: 6px;
   font-size: 20px;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8C0E0E; 
 }
 
 .list-intro {
