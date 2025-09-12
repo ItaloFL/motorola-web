@@ -145,3 +145,35 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 600px) {
+  .image-inovation {
+    width: 400px;
+    height: 371px;
+  }
+
+  .texto-apresentacao {
+    width: 400px;
+   
+  }
+
+  .paragrafo {
+    width: 400px;
+    margin-bottom: 60px;
+  }
+
+  .cards {
+    padding: 20px;
+    width: 400px; 
+    height: 250px;
+   
+  }
+
+  .cards-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+     flex-direction: column;
+  }
+}
