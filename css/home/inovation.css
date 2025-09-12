@@ -116,3 +116,46 @@ button a {
   margin-top: -20px;
   margin-bottom: 80px;
 }
+
+@media (max-width:1235px) {
+    .parte-superior {
+        display: flex;
+        max-width: 1235px;
+        gap: 50px;
+        text-align: left;
+    }
+
+    .imagem img {
+        max-width: 300px;
+        max-height: 280px;
+    }
+
+    /* .total {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin-top: -20px;
+        margin-bottom: 80px;
+    } */
+
+}
+
+@media (max-width:768px) {
+    .parte-superior {
+        display: flex;
+        max-width: 768px;
+        gap: 50px;
+        text-align: left;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards-geral{
+        display: flex;
+        justify-content: end;
+        text-align: center;
+        gap: auto;
+        margin-top: 100px;    
+        flex-direction: column;
+    }
+}
