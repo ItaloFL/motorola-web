@@ -51,3 +51,21 @@ a {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.button
+{
+  transition: 1s;
+}
+.button:hover
+{
+  will-change: transform;
+  transform: scale(103%);
+}
+
+.menu-list li {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 500ms;
+}
+.menu-list li:hover{
+  text-decoration: underline 0.15em rgba(0, 0, 0, 1);
+};
