@@ -34,13 +34,14 @@
 }
 
 .button {
-  color: var(--color-text);
+  color: var(--color-text-button);
   background-color: var(--color-primary);
   padding: 20px;
   border-radius: 6px;
   font-size: 20px;
   transition-duration: 300ms;
   cursor: pointer;
+  border: 0px;
 }
 
 .button:hover {
@@ -98,4 +99,24 @@
     flex-direction: column;
     gap: 10px;
   }
+}
+
+@media (max-width: 400px) {
+  .item-list {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list-description {
+    font-size: 14px;
+  }
+
+  .list-title{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
 }

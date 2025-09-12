@@ -3,6 +3,7 @@
   --color-bg-alt: #ebebeb;
   --color-bg-section: #d6d6d6;
   --color-text: #000000;
+  --color-text-button: #ffffff;
   --color-text-muted: #333333;
   --color-primary: #b01212;
   --color-primary-hover: #8c0e0e;
@@ -15,6 +16,7 @@
   --color-bg-alt: #1e1e1e;
   --color-bg-section: #2a2a2a;
   --color-text: #ffffff;
+  --color-text-button: #000000;
   --color-text-muted: #cccccc;
   --color-primary: #e63939;
   --color-primary-hover: #ff5c5c;
