@@ -1,0 +1,20 @@
+
+.container h1 {
+    font-size: 48px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+img {
+    height: 60px;
+    width: 180px;
+    filter: grayscale(100%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+    gap: 60px;
+}
+
