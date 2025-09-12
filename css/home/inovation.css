@@ -1,0 +1,102 @@
+.parte-superior {
+  display: flex;
+  margin-top: 88px;
+  gap: 64px;
+  justify-content: space-between;
+}
+
+h1,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+
+.titulo {
+  font-size: 48px;
+  font-family: "roboto", sans-serif;
+  width: 380px;
+  height: 127.52px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.paragrafo {
+  font-size: 20px;
+  font-family: "roboto";
+  font-weight: regular;
+  width: 500px;
+  height: 192px;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.cards-geral {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.cards {
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  padding: 22.23px;
+  width: 323.38px; /* define um tamanho fixo (ou usa flex) */
+  max-height: 296px; /* altura mínima */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opcional: dar cara de card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22px;
+}
+
+.p-card {
+  background-color: #fbfbfb;
+  margin-top: 30px;
+}
+
+.test-bg {
+    background-color: #b01212;
+}
+
+.texto-apresentacao {
+  display: block;
+}
+
+.imagem img {
+  max-width: 556px;
+  max-height: 371px;
+}
+
+.imagem-logo img {
+  width: 65.2px;
+  height: 65.2px;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+button {
+  width: 158.72px;
+  height: 72.53px;
+  background-color: #b01212;
+  border-radius: 6px;
+}
+
+button a {
+  font-size: 24px;
+  color: white;
+  width: 118px;
+  height: 36px;
+  background-color: #b01212;
+}
+
+.total {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 80px;
+}
