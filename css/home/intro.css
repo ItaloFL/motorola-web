@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.intro-image {
+  border-radius: 6px;
+}
+
 .minimal-title {
   font-size: 14px;
   margin-bottom: 20px;
