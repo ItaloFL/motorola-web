@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,16 +11,28 @@
     <header class="header-content">
       <div class="container header">
         <div class="logo">
-          <a href=""
-            ><img src="assets/logos/Motorola_new_logo.svg" alt="Motorola Logo"
-          /></a>
+          <a href="">
+            <img src="assets/logos/Motorola_new_logo.svg" alt="Motorola Logo" />
+          </a>
         </div>
 
-        <ul class="menu-list">
-          <li><a href="">Produtos</a></li>
-          <li><a href="">Suporte</a></li>
-          <li><a href="">Sobre</a></li>
-        </ul>
+        <div class="list-button">
+          <ul class="menu-list" id="menu">
+            <li><a href="">Produtos</a></li>
+            <li><a href="">Suporte</a></li>
+            <li><a href="">Sobre</a></li>
+          </ul>
+
+          <button class="menu-toggle" id="menu-toggle">☰</button>
+          <button
+            class="theme-toggle"
+            id="btn-theme"
+            aria-label="Alternar tema"
+          >
+            <span class="icon-sun">☀️</span>
+            <span class="icon-moon">🌙</span>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -114,56 +126,58 @@
       </div>
     </main>
 
-    <section class="gallery-section container">
-      <h1>Galeria</h1>
-      <div class="gallery">
-        <article class="gallery-items" tabindex="1">
-          <picture>
-            <img src="./assets/imgs/moto_razr_60_ultra.png" alt="" />
-          </picture>
-          <div class="content">
-            <span class="phone">Motorola Edge 50 Ultra</span>
-            <span class="price">R$ 8.999.10</span>
-            <span>OLED 144Hz</span>
-          </div>
-          <a href="">Detalhes</a>
-        </article>
+    <section class="gallery-section">
+      <div class="container">
+        <h1 class="galery-title">Galeria</h1>
+        <div class="gallery">
+          <article class="gallery-items" tabindex="1">
+            <picture>
+              <img src="./assets/imgs/moto_razr_60_ultra.png" alt="" />
+            </picture>
+            <div class="content">
+              <span class="phone">Motorola Edge 50 Ultra</span>
+              <span class="price">R$ 8.999.10</span>
+              <span>OLED 144Hz</span>
+            </div>
+            <a href="">Detalhes</a>
+          </article>
 
-        <article class="gallery-items" tabindex="1">
-          <picture>
-            <img src="./assets/imgs/moto_buds_loop.png" alt="" />
-          </picture>
-          <div class="content">
-            <span class="phone">Moto Buds Loop</span>
-            <span class="price">R$ 899.10</span>
-            <span>OLED 144Hz</span>
-          </div>
-          <a href="">Detalhes</a>
-        </article>
+          <article class="gallery-items" tabindex="1">
+            <picture>
+              <img src="./assets/imgs/moto_buds_loop.png" alt="" />
+            </picture>
+            <div class="content">
+              <span class="phone">Moto Buds Loop</span>
+              <span class="price">R$ 899.10</span>
+              <span>OLED 144Hz</span>
+            </div>
+            <a href="">Detalhes</a>
+          </article>
 
-        <article class="gallery-items" tabindex="1">
-          <picture>
-            <img src="./assets/imgs/moto_watch_fit.png" alt="" />
-          </picture>
-          <div class="content">
-            <span class="phone">Moto Watch FIT</span>
-            <span class="price">R$ 899.10</span>
-            <span>OLED 144Hz</span>
-          </div>
-          <a href="">Detalhes</a>
-        </article>
+          <article class="gallery-items" tabindex="1">
+            <picture>
+              <img src="./assets/imgs/moto_watch_fit.png" alt="" />
+            </picture>
+            <div class="content">
+              <span class="phone">Moto Watch FIT</span>
+              <span class="price">R$ 899.10</span>
+              <span>OLED 144Hz</span>
+            </div>
+            <a href="">Detalhes</a>
+          </article>
 
-        <article class="gallery-items" tabindex="1">
-          <picture>
-            <img src="./assets/imgs/caixa_de_som_ROKR300.png" alt="" />
-          </picture>
-          <div class="content">
-            <span class="phone">Caixa de Som ROKR300</span>
-            <span class="price">R$ 379.00</span>
-            <span>OLED 144Hz</span>
-          </div>
-          <a href="">Detalhes</a>
-        </article>
+          <article class="gallery-items" tabindex="1">
+            <picture>
+              <img src="./assets/imgs/caixa_de_som_ROKR300.png" alt="" />
+            </picture>
+            <div class="content">
+              <span class="phone">Caixa de Som ROKR300</span>
+              <span class="price">R$ 379.00</span>
+              <span>OLED 144Hz</span>
+            </div>
+            <a href="">Detalhes</a>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -181,7 +195,11 @@
             </p>
             <button class="button"><a href="/">Saiba mais</a></button>
           </div>
-          <img src="./assets/imgs/image-motorola-3.jpg" alt="sla" />
+          <img
+            class="image-inovation"
+            src="./assets/imgs/image-motorola-3.jpg"
+            alt="sla"
+          />
         </div>
 
         <div class="cards-geral">
@@ -273,41 +291,46 @@
       </div>
     </section>
 
-    <section>
+    <section class="partner-content">
       <div class="container">
-    <h1>nossos parceiros</h1>
-    <section class="grid">
-      <div class="parceiros">
-        <img src="assets/logos/amazon.svg" alt="logo da amazon">
+        <h1 class="partner-title">nossos parceiros</h1>
+
+        <div class="partner-marquee">
+          <div class="partner-track">
+            <div class="parceiros">
+              <img src="assets/logos/amazon.svg" alt="Amazon" />
+            </div>
+            <div class="parceiros">
+              <img src="assets/logos/vivo.svg" alt="Vivo" />
+            </div>
+            <div class="parceiros">
+              <img src="assets/logos/intel.svg" alt="Intel" />
+            </div>
+
+            <div class="parceiros">
+              <img src="assets/logos/tim.svg" alt="TIM" />
+            </div>
+            <div class="parceiros">
+              <img src="assets/logos/intel.svg" alt="Intel" />
+            </div>
+            <div class="parceiros">
+              <img src="assets/logos/google.svg" alt="Google" />
+            </div>
+            <div class="parceiros">
+              <img src="assets/logos/amazon.svg" alt="Amazon" />
+            </div>
+
+            <div class="parceiros">
+              <img src="assets/logos/booking-com.svg" alt="Booking" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="parceiros">
-        <img src="assets/logos/claro.svg" alt="logo da claro">
-      </div>
-      <div class="parceiros">
-        <img src="assets/logos/magalu.svg" alt="logo da magalu">
-      </div>
-      <div class="parceiros">
-        <img src="assets/logos/tim.svg" alt="logo da tim">
-      </div>
-      <div class="parceiros">
-        <img src="assets/logos/intel.svg" alt="logo da intel">
-      </div>
-      <div class="parceiros">
-        <img src="assets/logos/google.svg" alt="logo da logitech">
-      </div>
-      <div class="parceiros">
-        <img src="assets/logos/vivo.svg" alt="logo da vivo">
-      </div>
-      <div class="parceiros">
-        <img src="assets/logos/booking-com.svg" alt="logo da booking-com">
-      </div>
-    </section>
-  </div>
     </section>
 
     <section class="bg-natureza">
       <div class="natureza">
-        <div>
+        <div class="natureza-image">
           <img
             src="assets/imgs/image-motorola-2.jpg"
             alt="imagem ambiental futuristica"
@@ -383,6 +406,9 @@
         </div>
       </div>
     </footer>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/partners.js"></script>
+    <script src="js/theme.js"></script>
   </body>
 </html>
-

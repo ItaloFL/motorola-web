@@ -4,7 +4,7 @@
 }
 
 .bg-footer {
-  background-color: #ebebeb;
+  background-color: var(--color-bg-alt);
 }
 
 .footer {
@@ -13,6 +13,7 @@
   gap: 8.5rem;
   padding-top: 5.75rem;
   padding-bottom: 8.25rem;
+  color: var(--color-text);
 }
 
 .box {
@@ -50,6 +51,20 @@ li {
   gap: 0.75rem;
 }
 
+
 .footer-list:hover {
   color: black;
+}
+
+@media (max-width: 800px) {
+  .logo img {
+    width: 140px;
+    height: 50px;
+  }
+
+  .footer {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 2rem;
+  }
 }

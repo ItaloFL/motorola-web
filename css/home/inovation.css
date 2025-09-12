@@ -6,15 +6,6 @@
   justify-content: space-between;
 }
 
-h1,
-p,
-button {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  border: none;
-}
-
 .titulo {
   font-size: 48px;
   font-family: "roboto", sans-serif;
@@ -22,6 +13,7 @@ button {
   height: 127.52px;
   font-weight: bold;
   margin-top: 0;
+  color: var(--color-text);
 }
 
 .paragrafo {
@@ -30,6 +22,7 @@ button {
   height: 192px;
   text-align: left;
   line-height: 1.5em;
+  color: var(--color-text);
 }
 
 .cards-geral {
@@ -41,7 +34,7 @@ button {
 
 .cards {
   border-radius: 5px;
-  background-color: #fbfbfb;
+  background-color: var(--color-bg-section);
   padding: 30px;
   width: 300px; /* define um tamanho fixo (ou usa flex) */
   max-height: 296px; /* altura mínima */
@@ -50,10 +43,7 @@ button {
   align-items: center;
   justify-content: flex-start;
   gap: 22px;
-}
-
-.p-card {
-  background-color: #fbfbfb;
+  color: var(--color-text);
 }
 
 .test-bg {
@@ -92,4 +82,66 @@ button {
   width: 30px;
   height: 30px;
   color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .parte-superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .image-inovation {
+    width: 700px;
+    height: 371px;
+  }
+
+  .texto-apresentacao {
+    width: 700px;
+  }
+
+  .titulo {
+    width: 500px;
+    height: 40px;
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .cards {
+    padding: 20px;
+    width: 180px; /* define um tamanho fixo (ou usa flex) */
+    height: 250px; /* altura mínima */
+  }
+
+  .cards-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .image-inovation {
+    width: 500px;
+    height: 371px;
+  }
+
+  .texto-apresentacao {
+    width: 500px;
+  }
+
+  .cards {
+    padding: 20px;
+    width: 150px; /* define um tamanho fixo (ou usa flex) */
+    height: 250px; /* altura mínima */
+  }
+
+  .cards-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 }
