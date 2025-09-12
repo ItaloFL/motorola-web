@@ -1,14 +1,14 @@
 .natureza{
     display: flex;
-    background: #EBEBEB;
-    position: relative;
+    width: 100%;
     height: 799px;
+    background: #EBEBEB;
     
 }
 
 #imgNatureza{
     width: 799px;
-    
+    height: 799px;
 }
 
 .textNatura{
@@ -35,6 +35,8 @@
 }
 
 #retangulo {
+    position: absolute;
+    left: 600px;
     margin-top: 100px;
     display: flex;
     width: 539px;
@@ -52,12 +54,51 @@
     
 }
 
-#retangulo{
-    /* background: red; */
-    position:;
-}
-
 footer{
     background: #D9D9D9;
     margin-top: 20px;
+}
+footer .container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+}
+footer #logo-footer img
+{
+    width: 300px;
+}
+footer #contatos span
+{
+    display: block;
+    margin-top: 15px;
+}
+footer #contatos span:first-child
+{
+    margin-bottom: 40px;
+}
+footer #social-media-footer
+{
+    margin: 10px 0 0 0;
+}
+footer #social-media-footer img
+{
+    margin: 0 0 0 10px;
+}
+footer #informacoes ol
+{
+    list-style: none;
+}
+footer #informacoes p:first-child
+{
+    margin: 10px 0 40px 0;
+}
+footer #informacoes ol li
+{
+    margin: 10px 0 0 0;
+}
+footer #informacoes a
+{
+    text-decoration: underline;
 }
