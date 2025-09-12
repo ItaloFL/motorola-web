@@ -61,6 +61,11 @@ a {
   will-change: transform;
   transform: scale(103%);
 }
+.button:hover
+{
+  will-change: transform;
+  transform: scale(103%);
+}
 
 .menu-list li {
   text-decoration: underline 0.15em rgba(0, 0, 0, 0);

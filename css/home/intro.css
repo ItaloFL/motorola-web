@@ -43,6 +43,10 @@
   cursor: pointer;
   border: 0px;
 }
+a.button
+{
+  display: inline-block;
+}
 
 .button:hover {
   background-color: var(--color-primary-hover);
