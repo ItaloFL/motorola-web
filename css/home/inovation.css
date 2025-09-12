@@ -1,6 +1,7 @@
 .parte-superior {
   display: flex;
   margin-top: 88px;
+  padding-top: 3.5rem;
   gap: 64px;
   justify-content: space-between;
 }
@@ -25,8 +26,6 @@ button {
 
 .paragrafo {
   font-size: 20px;
-  font-family: "roboto";
-  font-weight: regular;
   width: 500px;
   height: 192px;
   text-align: left;
@@ -36,16 +35,16 @@ button {
 .cards-geral {
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
 .cards {
   border-radius: 5px;
   background-color: #fbfbfb;
-  padding: 22.23px;
-  width: 323.38px; /* define um tamanho fixo (ou usa flex) */
+  padding: 30px;
+  width: 300px; /* define um tamanho fixo (ou usa flex) */
   max-height: 296px; /* altura mínima */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* opcional: dar cara de card */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,11 +54,10 @@ button {
 
 .p-card {
   background-color: #fbfbfb;
-  margin-top: 30px;
 }
 
 .test-bg {
-    background-color: #b01212;
+  background-color: #b01212;
 }
 
 .texto-apresentacao {
@@ -71,32 +69,27 @@ button {
   max-height: 371px;
 }
 
-.imagem-logo img {
-  width: 65.2px;
-  height: 65.2px;
-  border-radius: 100%;
-  object-fit: contain;
-}
-
-button {
-  width: 158.72px;
-  height: 72.53px;
-  background-color: #b01212;
-  border-radius: 6px;
-}
-
-button a {
-  font-size: 24px;
-  color: white;
-  width: 118px;
-  height: 36px;
-  background-color: #b01212;
-}
-
 .total {
   display: flex;
   flex-wrap: wrap;
   position: relative;
   margin-top: -20px;
   margin-bottom: 80px;
+}
+
+.imagem-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: #fff;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+}
+
+.card-logo {
+  width: 30px;
+  height: 30px;
+  color: #fff;
 }

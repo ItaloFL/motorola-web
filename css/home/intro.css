@@ -35,6 +35,7 @@
   background-color: #b01212;
   padding: 20px;
   border-radius: 6px;
+  font-size: 20px;
 }
 
 .list-intro {
@@ -52,13 +53,14 @@
   gap: 20px;
 }
 
-.item-list img {
-  width: 60px;
-  height: 60px;
+.list-icon {
+  color: #124ec9;
+  font-size: 32px;
 }
 
-.list-icon img {
-  color: #124EC9;
+.list-icon svg {
+  width: 50px;
+  height: 50px;
 }
 
 .list-title {
