@@ -23,6 +23,12 @@ section {
     position: relative;
 }
 
+.parte-superior img {
+    width: 100%;
+    max-width: 556px;
+    height: auto;
+}
+
 h1, p, button {
     margin: 0;
     padding: 0;
@@ -33,7 +39,8 @@ h1, p, button {
 .titulo {
     font-size: 48px;
     font-family: 'roboto', sans-serif;
-    width: 380px;
+    width: 100%;       
+    max-width: 380px;
     height: 127.52px;
     font-weight: bold;
     margin-top: 0;
@@ -43,7 +50,8 @@ h1, p, button {
     font-size: 20px;
     font-family: 'roboto';
     font-weight: regular;
-    width: 500px;
+    width:100%;
+    max-width: 500px;
     height: 192px;
     text-align: left;
     line-height: 1.5em;
@@ -61,8 +69,8 @@ h1, p, button {
     border-radius: 5px;
     background-color: #FBFBFB;
     padding: 22.23px;           
-    width: 323.38px;            /* define um tamanho fixo (ou usa flex) */
-    max-height: 296px;       /* altura mínima */
+    width: 323.38px;           
+    max-height: 296px;     
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* opcional: dar cara de card */
     display: flex;
     flex-direction: column;
@@ -111,51 +119,78 @@ button a {
 
 .total {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   position: relative;
   margin-top: -20px;
   margin-bottom: 80px;
 }
 
-@media (max-width:1235px) {
+@media (max-width: 1235px) {
     .parte-superior {
-        display: flex;
-        max-width: 1235px;
-        gap: 50px;
-        text-align: left;
+        gap: 40px;
     }
 
-    .imagem img {
-        max-width: 300px;
-        max-height: 280px;
-    }
-
-    /* .total {
-        display: flex;
+    .cards-geral {
+        gap: 40px;
         flex-wrap: wrap;
-        position: relative;
-        margin-top: -20px;
-        margin-bottom: 80px;
-    } */
+        justify-content: center;
+    }
 
+    /* botão acompanha o centro quando a tela encolher */
+    .total {
+        align-items: center;
+        margin-top: 20px; /* tira a margem negativa no responsivo */
+    }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .parte-superior {
-        display: flex;
-        max-width: 768px;
-        gap: 50px;
-        text-align: left;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        gap: 30px;
     }
 
-    .cards-geral{
-        display: flex;
-        justify-content: end;
-        text-align: center;
-        gap: auto;
-        margin-top: 100px;    
+    .texto-apresentacao {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .titulo {
+        font-size: 32px;
+        width: auto;
+        height: auto;
+    }
+
+    .paragrafo {
+        font-size: 18px;
+        width: auto;
+        height: auto;
+    }
+
+    .cards-geral {
         flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 60px;
+        padding-left: 10px;
+    }
+
+    .cards {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    /* botão centralizado só no mobile */
+    .total {
+        align-items: center;
+        margin-top: 20px; /* remove desalinhamento */
+        gap: 30px;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
     }
 }
