@@ -1,5 +1,8 @@
 
-
+.gallery-section
+{
+    padding-top: 50px;
+}
 .gallery
 {
     position: relative;
@@ -9,6 +12,8 @@
     overflow-y: hidden; /* esconde barra vertical */
     scroll-snap-type: x mandatory; /* opcional, deixa o snap suave */
     gap: 10px;
+
+    padding-top: 50px;
 }
 .gallery::-webkit-scrollbar
 {
@@ -62,11 +67,14 @@
 .gallery-items picture
 {
     display: flex;
+    justify-content: center;
 }
 .gallery-items img
 {
-    width: 255px;
-    height: 255px;
+    max-width: 255px;
+    max-height: 255px;
+
+    aspect-ratio: 4/4;
 
     border-radius: 10px;
 }
@@ -94,7 +102,7 @@
     transform: scale(102%);
 }
 
-@media (max-width: 720px)
+@media (max-width: 1000px)
 {
     .gallery-items img {
         width: 200px;

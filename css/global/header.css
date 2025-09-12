@@ -1,0 +1,24 @@
+.logo img {
+  width: 280px;
+  height: 70px;
+}
+
+.header-content {
+  background-color: #DDDDDD;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.menu-list {
+  display: flex;
+  gap: 3rem;
+}
+
+.menu-list li {
+  font-size: 20px;
+}
