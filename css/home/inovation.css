@@ -1,34 +1,79 @@
 body, h1, p, a {
     margin: 0;
     padding: 0;
+    background-color: #EDEDED;
 }
 
 section {
+    background-color: #EDEDED;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .parte-superior {
     display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 80px;
+    margin-top: 88px;
+    gap: 64px;
+    position: relative;
+}
+
+h1, p, button {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+.titulo {
+    font-size: 48px;
+    font-family: 'roboto', sans-serif;
+    width: 380px;
+    height: 127.52px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.paragrafo {
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: regular;
+    width: 500px;
+    height: 192px;
+    text-align: left;
+    line-height: 1.5em;
 }
 
 .cards-geral{
     display: flex;
     text-align: center;
     gap: 113px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 100px;    
+    
 }
 
 .cards {
-    padding: 30px;
-    background-color: grey;
+    border-radius: 5px;
+    background-color: #FBFBFB;
+    padding: 22.23px;           
+    width: 323.38px;            /* define um tamanho fixo (ou usa flex) */
+    max-height: 296px;       /* altura mínima */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* opcional: dar cara de card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 22px;
+}
+
+.p-card {
+    background-color: #FBFBFB;
+    margin-top: 30px;
 }
 
 .texto-apresentacao {
@@ -44,4 +89,30 @@ section {
     width: 65.2px;
     height: 65.2px;
     border-radius: 100%;
+    object-fit:contain;
+}
+
+button {
+    width: 158.72px;
+    height: 72.53px;
+    background-color: #B01212;
+    border-radius: 6px;
+}
+
+button a {
+    font-size: 24px;
+    color: white;
+    width: 118px;
+    height: 36px;
+    font-family: 'roboto', sans-serif;
+    background-color: #B01212;
+
+}
+
+.total {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 80px;
 }
