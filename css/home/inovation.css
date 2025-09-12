@@ -1,0 +1,147 @@
+.parte-superior {
+  display: flex;
+  margin-top: 88px;
+  padding-top: 3.5rem;
+  gap: 64px;
+  justify-content: space-between;
+}
+
+.titulo {
+  font-size: 48px;
+  font-family: "roboto", sans-serif;
+  width: 380px;
+  height: 127.52px;
+  font-weight: bold;
+  margin-top: 0;
+  color: var(--color-text);
+}
+
+.paragrafo {
+  font-size: 20px;
+  width: 500px;
+  height: 192px;
+  text-align: left;
+  line-height: 1.5em;
+  color: var(--color-text);
+}
+
+.cards-geral {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.cards {
+  border-radius: 5px;
+  background-color: var(--color-bg-section);
+  padding: 30px;
+  width: 300px; /* define um tamanho fixo (ou usa flex) */
+  max-height: 296px; /* altura mínima */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22px;
+  color: var(--color-text);
+}
+
+.test-bg {
+  background-color: #b01212;
+}
+
+.texto-apresentacao {
+  display: block;
+}
+
+.imagem img {
+  max-width: 556px;
+  max-height: 371px;
+}
+
+.total {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 80px;
+}
+
+.imagem-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: #fff;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+}
+
+.card-logo {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .parte-superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .image-inovation {
+    width: 700px;
+    height: 371px;
+  }
+
+  .texto-apresentacao {
+    width: 700px;
+  }
+
+  .titulo {
+    width: 500px;
+    height: 40px;
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .cards {
+    padding: 20px;
+    width: 180px; /* define um tamanho fixo (ou usa flex) */
+    height: 250px; /* altura mínima */
+  }
+
+  .cards-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .image-inovation {
+    width: 500px;
+    height: 371px;
+  }
+
+  .texto-apresentacao {
+    width: 500px;
+  }
+
+  .cards {
+    padding: 20px;
+    width: 150px; /* define um tamanho fixo (ou usa flex) */
+    height: 250px; /* altura mínima */
+  }
+
+  .cards-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
