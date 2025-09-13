@@ -34,13 +34,14 @@
 }
 
 .button {
-  color: var(--color-text);
+  color: var(--color-text-button);
   background-color: var(--color-primary);
   padding: 20px;
   border-radius: 6px;
   font-size: 20px;
   transition-duration: 300ms;
   cursor: pointer;
+  border: 0px;
 }
 
 .button:hover {
