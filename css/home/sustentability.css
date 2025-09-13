@@ -61,7 +61,13 @@
   position: relative;
   left: -100px;
   border-radius: 5px;
+
+  transition: 1s;
 }
+#retangulo:hover {
+    transform: scale(103%);
+    will-change: transform;
+  }
 
 @media (max-width: 1000px) {
   .natureza {
@@ -92,6 +98,9 @@
   #retangulo {
     width: 700px;
     position: initial;
+  }
+  #retangulo:hover {
+    transform: none;
   }
 
   #imgNatureza {
@@ -160,7 +169,7 @@
   .textNatura .paragraph {
     margin-top: 20px;
     margin-bottom: 40px;
-    
+
     width: 360px;
     font-size: 16px;
     font-weight: bold;
