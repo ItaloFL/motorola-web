@@ -100,3 +100,23 @@
     gap: 10px;
   }
 }
+
+@media (max-width: 400px) {
+  .item-list {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list-description {
+    font-size: 14px;
+  }
+
+  .list-title{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+}
