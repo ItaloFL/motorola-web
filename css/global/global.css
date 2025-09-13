@@ -9,6 +9,7 @@
   --color-primary-hover: #8c0e0e;
   --color-card: #fbfbfb;
   --color-border: lightgray;
+  --color-icon: #000000;
 }
 
 [data-theme="dark"] {
@@ -22,6 +23,7 @@
   --color-primary-hover: #ff5c5c;
   --color-card: #1e1e1e;
   --color-border: #444444;
+  --color-icon: #fff;
 }
 
 * {

@@ -30,14 +30,18 @@
   color: var(--color-text);
 }
 
-.parceiros img {
+.parceiros svg {
   height: 60px;
   width: auto;
+  color: var(--color-icon); 
+
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
-.parceiros img:hover {
+
+
+.parceiros svg:hover {
   filter: grayscale(0%);
 }
 
