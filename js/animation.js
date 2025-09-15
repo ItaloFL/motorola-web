@@ -1,5 +1,4 @@
 const animatedElements = document.querySelectorAll("[data-animate]");
-console.log(animatedElements)
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
