@@ -1,3 +1,4 @@
-import "./assets/js/theme.js";
-import "./assets/js/menu.js";
-import "./assets/js/partners.js";
+import "./theme.js";
+import "./menu.js";
+import "./partners.js";
+import "./animation.js";
