@@ -168,6 +168,14 @@
     text-align: initial;
   }
 }
+
+@media (max-width: 600px) {
+#testepara {
+    height: 200px;
+    width: 370px;
+  }
+}
+
 @media (max-width: 500px) 
 {
   .natureza
