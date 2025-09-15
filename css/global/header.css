@@ -39,6 +39,7 @@
   cursor: pointer;
   border: none;
   background: transparent;
+  color: var(--color-text);
 }
 
 .theme-toggle {
