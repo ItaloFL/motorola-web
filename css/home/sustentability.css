@@ -36,8 +36,8 @@
   margin-top: 30px;
   width: 490px;
   height: 95px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5rem;
   text-align: justify;
 }
 
@@ -79,13 +79,12 @@
     font-size: 28px;
     text-align: initial;
   }
+  
   .textNatura .paragraph 
   {
     margin-bottom: 40px;
 
     width: 700px;
-    font-size: 16px;
-    font-weight: bold;
     text-align: justify;
   }
 
@@ -94,11 +93,16 @@
     margin: 20px;
   }
 
+  .paragraph p {
+    margin-top: 0px;
+  }
 
   #retangulo {
     width: 700px;
     position: initial;
+    margin-top: 30px;
   }
+
   #retangulo:hover {
     transform: none;
   }
@@ -120,31 +124,47 @@
   }
 
   #retangulo {
-    width: 375px;
+    width: 455px;
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
 
   #imgNatureza 
   {
-    width: 375px;
+    width: 450px;
     height: 375px;
+    margin-bottom: 20px;
   }
+  
   .textNatura
   {
     margin: auto;
-    width: 375px;
+    width: 455px;
     max-width: 80%;
   }
-  .textNatura .paragraph {
-    margin-bottom: 40px;
 
-    width: 375px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: justify;
+  .textNatura h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
   }
+
+  .textNatura .paragraph {
+    margin-bottom: 20px;
+
+    width: 455px;
+    margin-top: 0px;
+  }
+
+  #testepara {
+    height: 140px;
+  }
+
+  .intro {
+    font-size: 32px;
+  }
+
   .textNatura .intro {
-    width: 490px;
-    font-size: 22px;
+    width: 450px;
     text-align: initial;
   }
 }
@@ -155,6 +175,7 @@
     align-items: center;
     margin: auto;
   }
+  
   #imgNatureza 
   {
     width: 375px;
@@ -171,14 +192,21 @@
     margin-bottom: 40px;
 
     width: 360px;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5rem;
     text-align: justify;
     padding: 5px;
   }
+
+  #testepara {
+    height: 120px;
+    width: 370px;
+  }
+
   #retangulo {
     max-width: 375px;
   }
+
   .logo svg
   {
     width: 200px;
